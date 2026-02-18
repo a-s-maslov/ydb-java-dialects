@@ -7,6 +7,6 @@ public class YdbPlugin
 {
     public YdbPlugin()
     {
-        super("ydb", YdbClientModule::new);
+        super("ydb", new YdbClientModule());
     }
 }
