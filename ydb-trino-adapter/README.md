@@ -1,5 +1,6 @@
 # YDB Trino Adapter
 
+Fork is created to support Trino 458
 Minimal Trino JDBC connector for YDB. Built on `trino-base-jdbc` and uses the official YDB JDBC driver.
 
 ## Build
@@ -10,7 +11,7 @@ mvn -f ydb-trino-adapter/pom.xml -DskipTests package
 
 ## Local example with YDB and Trino
 
-`examples/` contains a minimal Docker Compose setup that runs both Trino (479) and YDB locally.
+`examples/` contains a minimal Docker Compose setup that runs both Trino (458) and YDB locally.
 
 1) Build the plugin and assemble the plugin directory:
 
